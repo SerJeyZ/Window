@@ -2327,8 +2327,8 @@ input:focus:-ms-input-placeholder {
 .arrow-btn::before {
   position: absolute;
   content: '';
-  right: 10px;
-  top: 15px;
+  right: 11px;
+  top: 16px;
   border-width: 12px 9px 12px 9px;
   border-style: solid;
   border-color: #ffffff transparent transparent transparent;
@@ -3469,7 +3469,7 @@ input:focus:-ms-input-placeholder {
 
   .instal__content {
     flex-wrap: wrap;
-    margin-top: 65px;
+    margin-top: 50px;
   }
 
   .instal__content-img {
@@ -3477,11 +3477,12 @@ input:focus:-ms-input-placeholder {
     justify-content: center;
     width: 100%;
     max-width: 100%;
+    padding-top: 0;
     order: 1;
   }
 
   .instal__content-img img {
-    max-width: 420px;
+    max-width: 320px;
   }
 
   .instal__content-col {
@@ -3706,10 +3707,10 @@ input:focus:-ms-input-placeholder {
   }
 
   .calc__window-options-select {
-    bottom: -69px;
+    bottom: -97px;
     justify-content: start;
-    max-width: 350px;
-    margin-right: 30px;
+    flex-wrap: wrap;
+    max-width: 290px;
   }
 
   .calc__window-select {
@@ -3760,10 +3761,6 @@ input:focus:-ms-input-placeholder {
 
   .select-list {
     padding: 8px 27px;
-  }
-
-  .select-list {
-    flex-wrap: wrap;
   }
 
   .select-list__item {
@@ -4011,11 +4008,7 @@ input:focus:-ms-input-placeholder {
   }
 
   .instal__content {
-    margin-top: 40px;
-  }
-
-  .instal__content-img img {
-    max-width: 320px;
+    margin-top: 30px;
   }
 
   .instal__item-icon {
@@ -4306,6 +4299,101 @@ input:focus:-ms-input-placeholder {
   .bg-cont::after,
   .bg-cont::before {
     height: 60px;
+  }
+
+  .calc__title {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  .calc__title span {
+    font-size: 11px;
+  }
+
+  .calc__window-options {
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 10px;
+  }
+
+  .calc__window-options-select {
+    bottom: -90px;
+    justify-content: start;
+    flex-wrap: wrap;
+    max-width: 290px;
+  }
+
+  .calc__window-options-item {
+    width: 138px;
+    margin-top: 10px;
+  }
+
+  .calc__window-select {
+    padding: 7px;
+    padding-right: 24px;
+    font-size: 10px;
+  }
+
+  .calc__window-select::before {
+    right: 7px;
+    bottom: -18px;
+    border-width: 12px 5px 12px 5px;
+  }
+
+  .calc__window-width input,
+  .calc__window-height input {
+    margin-top: 15px;
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .calc__window-glass {
+    margin-top: 20px;
+  }
+
+  .calc__window-glass-item {
+    margin-top: 15px;
+  }
+
+  .calc__window-color {
+    margin-top: 20px;
+  }
+
+  .calc__btn-block {
+    margin-top: 20px;
+  }
+
+  .arrow-btn {
+    width: 28px;
+    height: 28px;
+  }
+
+  .arrow-btn::before {
+    top: 11px;
+    right: 10px;
+    border-width: 8px 4px 8px 4px;
+  }
+
+  .arrow-btn--active::before {
+    top: 2px;
+  }
+
+  .window-type__list {
+    margin-top: 15px;
+    padding: 5px 0;
+  }
+
+  .choose-color {
+    margin-top: 15px;
+  }
+
+  .choose-color__item {
+    width: 25px;
+    height: 25px;
+  }
+
+  .choose-color__current {
+    border-radius: 50%;
   }
 
   .calc-bg::after,
