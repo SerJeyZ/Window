@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Разумные окна</title>
+    <meta name="discription" content="discription">
+    <meta name="theme-color" content="#c9e0e04d">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400,900&amp;display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__top-line">
+          <div class="header__logo">
+            <picture>
+              <source media="(max-width: 1024px)" srcset="./img/logo-mobile.png"><img src="img/logo.png" alt="Разумные окна">
+            </picture>
+          </div>
+          <div class="header__top-menu">
+            <nav class="page-navigation">
+              <ul class="nav-list">
+                <li class="nav-list__item"><a class="link nav-list__link" href="#services">Услуги</a></li>
+                <li class="nav-list__item"><a class="link nav-list__link" href="#catalog">Каталог</a></li>
+                <li class="nav-list__item"><a class="link nav-list__link" href="#installation">Монтаж</a></li>
+                <li class="nav-list__item"><a class="link nav-list__link" href="#actions">Акции</a></li>
+                <li class="nav-list__item"><a class="link nav-list__link" href="#calc">Калькулятор</a></li>
+                <li class="nav-list__item"><a class="link nav-list__link" href="#payment">Рассрочка</a></li>
+                <li class="nav-list__item"><a class="link nav-list__link" href="#responses">Отзывы</a></li>
+                <li class="nav-list__item"><a class="link nav-list__link" href="#contacts">Контакты</a></li>
+              </ul>
+            </nav>
+            <div class="mobail-menu">
+              <div class="mobail-menu__logo"><img src="./img/logo-mobile.png" alt="Разумные окна"/></div>
+              <nav class="page-navigation-mob">
+                <ul class="nav-list">
+                  <li class="nav-list__item"><a class="link nav-list__link" href="#services">Услуги</a></li>
+                  <li class="nav-list__item"><a class="link nav-list__link" href="#catalog">Каталог</a></li>
+                  <li class="nav-list__item"><a class="link nav-list__link" href="#installation">Монтаж</a></li>
+                  <li class="nav-list__item"><a class="link nav-list__link" href="#actions">Акции</a></li>
+                  <li class="nav-list__item"><a class="link nav-list__link" href="#calc">Калькулятор</a></li>
+                  <li class="nav-list__item"><a class="link nav-list__link" href="#payment">Рассрочка</a></li>
+                  <li class="nav-list__item"><a class="link nav-list__link" href="#responses">Отзывы</a></li>
+                  <li class="nav-list__item"><a class="link nav-list__link" href="#contacts">Контакты</a></li>
+                </ul>
+              </nav>
+              <div class="mobail-menu__close"><img src="./img/menu-close.svg" alt="Закрыть меню"/></div>
+            </div>
+            <div class="header__phone">701-00-18</div>
+          </div>
+          <div class="burger"><img src="./img/burger.svg" alt="Открыть меню"></div>
+        </div>
+        <div class="header__content">
+          <div class="hero">
+            <div class="hero__container">
+              <div class="hero__left-block">
+                <div class="hero__left-block-wrap">
+                  <h1 class="general-title"><span class="general-title__first-text">Разумные</span><span class="general-title__second-text">окна</span></h1>
+                  <p class="hero__promo-text">индивидуальный подход<br> к  потребностям клиента</p>
+                  <p class="hero__discr">Мы команда профессионалов, нацеленных на предоставление вам максимально качественных услуг по установке пластиковых оконных систем</p>
+                </div>
+                <div class="hero__mobile-img"><img class="img-responsive" src="./img/hero-window.png" alt="window"/></div>
+                <div class="hero__action-block action">
+                  <div class="action__wrap">
+                    <div class="action__item">
+                      <picture>
+                        <source media="(max-width: 950px)" srcset="./img/ruler-mobile.png"/><img src="./img/ruler.png" alt="action"/>
+                      </picture>
+                      <p class="action__discr">Бесплатный замер</p>
+                    </div>
+                    <div class="action__item">
+                      <picture>
+                        <source media="(max-width: 950px)" srcset="./img/action-icon2-mobile.png"/><img src="./img/action-icon2.png" alt="action"/>
+                      </picture>
+                      <p class="action__discr">Скидки<br> до 49%</p>
+                    </div>
+                    <div class="action__item">
+                      <picture>
+                        <source media="(max-width: 950px)" srcset="./img/action-icon3-mobile.png"/><img src="./img/action-icon3.png" alt="action"/>
+                      </picture>
+                      <p class="action__discr">Потолок<br> в подарок</p>
+                    </div>
+                  </div>
+                  <div class="action__block-btn"><a class="link-btn action__btn link-btn--bg-white" href="#action">Все акции</a></div>
+                </div>
+              </div>
+              <div class="hero__right-block"><img class="img-responsive" src="./img/hero-window.png" alt="window"/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-form">
+        <div class="header-form__title">Есть вопросы?</div>
+        <div class="header-form__text">Перезвоним в течении 1 минуты!</div>
+        <form class="header-form__form" action="javasript:void(0)" method="post" name="header-form">
+          <input type="name" name="user-name" placeholder="ваше имя">
+          <input type="tel" name="phone" placeholder="номер телефона">
+          <button class="link-btn header-form__btn" type="submit">Заказать звонок</button>
+        </form>
+      </div>
+    </header>
+    <main class="main">
+      <section class="our-services-s">
+        <div class="wrapper">
+          <div class="services">
+            <h3 class="service-title"> <span class="service-title__text">услуги</span></h3>
+            <div class="services__content">
+              <div class="services__item">
+                <div class="services__img"><img class="img-responsive" src="./img/service-1.jpg" alt="Окна"></div>
+                <h4 class="services__item-title">Окна и Двери</h4>
+                <p class="services__item-discr">Мы команда профессионалов, нацеленных на предоставление</p>
+              </div>
+              <div class="services__item">
+                <div class="services__img"><img class="img-responsive" src="./img/service-2.jpg" alt="Балконы"></div>
+                <h4 class="services__item-title">Балконы и Лоджии</h4>
+                <p class="services__item-discr">Мы команда профессионалов, нацеленных на предоставление максимально</p>
+              </div>
+              <div class="services__item">
+                <div class="services__img"><img class="img-responsive" src="./img/service-3.jpg" alt="Коттеджи"></div>
+                <h4 class="services__item-title">Коттеджи и Дачи</h4>
+                <p class="services__item-discr">Мы команда профессионалов, нацеленных на предоставление максимально каче</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="adventages-s">
+        <div class="adventages">
+          <h3 class="service-title adventages__title"><span class="service-title__text">преимущества</span></h3>
+          <div class="adventages__container">
+            <div class="adventages__container-bg">
+              <div class="adventages__items">
+                <div class="adventages__items-img">
+                  <picture>
+                    <source media="(max-width: 1366px)" srcset="./img/window-pic-mob.png"/><img src="./img/window-pic.png" alt="w"/>
+                  </picture>
+                </div>
+                <div class="adventages__item adventages__item-enrgy">
+                  <p class="adventages__discr adventages__discr-enrgy">Энергосберегающее<br> покрытие</p>
+                  <div class="adventages__icon-discr adventages__icon-discr-enrgy"></div>
+                </div>
+                <div class="adventages__item adventages__item-prem">
+                  <p class="adventages__discr adventages__discr-prem">Премиум фурнитура<br> сделана в Германии</p>
+                  <div class="adventages__icon-discr adventages__icon-discr-prem"></div>
+                </div>
+                <div class="adventages__item adventages__item-sound">
+                  <p class="adventages__discr adventages__discr-sound">Усиленная<br> звукоизоляция</p>
+                  <div class="adventages__icon-discr adventages__icon-discr-sound"></div>
+                </div>
+                <div class="adventages__item adventages__item-color"> 
+                  <p class="adventages__discr adventages__discr-color">Огромный выбор<br> цветовых решений</p>
+                  <div class="adventages__icon-discr adventages__icon-discr-color"></div>
+                </div>
+                <div class="adventages__item adventages__item-heat"> 
+                  <p class="adventages__discr adventages__discr-heat">Улучшенная<br> теплоизоляция</p>
+                  <div class="adventages__icon-discr adventages__icon-discr-heat"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="models-s">
+        <div class="models">
+          <div class="wrapper">
+            <div class="models__container">
+              <h3 class="title models__title">Модели<span>Окон</span></h3>
+              <p class="discr models__discr">Выбирете модель окна</p>
+              <div class="tab-panel">
+                <div class="tabs tab-panel__left-block">
+                  <div class="model-tab">
+                    <div class="model-tab__item model-tab__item-active">Artline</div>
+                    <div class="model-tab__item">Evolution</div>
+                    <div class="model-tab__item">Proline</div>
+                    <div class="model-tab__item">Vekaslide</div>
+                  </div>
+                  <div class="model-tab model-tab--bottom">
+                    <div class="model-tab__item">WHS60</div>
+                    <div class="model-tab__item">WHS72</div>
+                  </div>
+                </div>
+                <div class="tab-panel__right-block">
+                  <div class="tab-panel__model-img">
+                    <picture>
+                      <source media="(max-width:767px)" srcset="./img/model-img-mob.png"/><img src="./img/model-img.png" alt="Artline"/>
+                    </picture>
+                  </div>
+                  <div class="info-panel tab-panel__model-info">
+                    <div class="info-panel__text"><strong class="info-panel__product-type">Профиль</strong>
+                      <h4 class="info-panel__title">Artline</h4>
+                      <p class="info-panel__promo-text">Мощность и энергоэффективность</p>
+                    </div>
+                    <div class="info-panel__properties">
+                      <div class="progress-bar"><span class="progress-bar__title">Тепло</span>
+                        <div class="progress-bar__line">
+                          <div class="progress-bar__line-inner progress-bar__line-inner-1"></div>
+                        </div>
+                      </div>
+                      <div class="progress-bar"><span class="progress-bar__title">Тишина</span>
+                        <div class="progress-bar__line">
+                          <div class="progress-bar__line-inner progress-bar__line-inner-2"></div>
+                        </div>
+                      </div>
+                      <div class="progress-bar"><span class="progress-bar__title">Безопасность</span>
+                        <div class="progress-bar__line">
+                          <div class="progress-bar__line-inner progress-bar__line-inner-3"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="price info-panel__price"><span class="price__first"><sup>от</sup>5600</span><span class="price__last">р/м<sup>2</sup></span></div><a class="link-btn info-panel__btn" href="javascript:void(0)">Приобрести</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="accessories-s">
+        <div class="wrapper">
+          <div class="premium">
+            <h3 class="title premium__title">Премиальная<span>Фурнитура</span></h3>
+            <p class="discr premium__discr">Премиальная фурнитура Премиальная фурнитура Усиленная</p>
+            <div class="premium__content">
+              <div class="premium__item premium__item-order1 clearfix">
+                <div class="premium__item-img">
+                  <div class="premium__img-container">
+                    <picture>
+                      <source media="(max-width:600px)" srcset="./img/premium/photo1-mob.jpg"/><img src="./img/premium/photo1.jpg" alt="Artline"/>
+                    </picture>
+                  </div>
+                </div>
+                <p class="premium__item-text">Защита от взлома за счет увеличенного количества точек прижима</p>
+              </div>
+              <div class="premium__item premium__item-order2 clearfix">
+                <div class="premium__item-img">
+                  <div class="premium__img-container">
+                    <picture>
+                      <source media="(max-width:600px)" srcset="./img/premium/photo2-mob.jpg"/><img src="./img/premium/photo2.jpg" alt="Artline"/>
+                    </picture>
+                  </div>
+                </div>
+                <p class="premium__item-text">Усиленная нижняя петля удерживает створку массой до 130кг, обеспечивает огромный запас прочности</p>
+              </div>
+              <div class="premium__item premium__item-order3 clearfix">
+                <div class="premium__item-img premium__item-img-reverse">
+                  <div class="premium__img-container premium__img-container--reverse">
+                    <picture>
+                      <source media="(max-width:600px)" srcset="./img/premium/photo3-mob.jpg"/><img src="./img/premium/photo3.jpg" alt="Artline"/>
+                    </picture>
+                  </div>
+                </div>
+                <p class="premium__item-text premium__item-text-rev">Система “микролифт” препятствует провисанию створки</p>
+              </div>
+              <div class="premium__item premium__item-order4 clearfix">
+                <div class="premium__item-img premium__item-img-reverse">
+                  <div class="premium__img-container premium__img-container--reverse">
+                    <picture>
+                      <source media="(max-width:600px)" srcset="./img/premium/photo4-mob.jpg"/><img src="./img/premium/photo4.jpg" alt="Artline"/>
+                    </picture>
+                  </div>
+                </div>
+                <p class="premium__item-text premium__item-text-rev">Многоступенчатая система проветривания обеспечивает регулируемый воздух</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="instalation-s">
+        <div class="bg-cont">
+          <div class="wrapper">
+            <div class="instal">
+              <h3 class="title instal__title">Монтаж<span>Окон</span></h3>
+              <p class="discr instal__discr">Быстрый и качественный монтаж Быстрый <br> и качественный монтаж Быстрый и качественный монтаж </p>
+              <div class="instal__content">
+                <div class="instal__content-col">
+                  <div class="instal__item">
+                    <div class="instal__item-icon"><img src="./img/montage/level-icon.png" alt="icon"/></div>
+                    <h4 class="instal__item-title">Собственые<span>монтажные бригады</span></h4>
+                    <p class="instal__item-discr">В нашем штате 50 стобственных монтажных бригад</p>
+                  </div>
+                  <div class="instal__item">
+                    <div class="instal__item-icon"><img src="./img/montage/level-icon.png" alt="icon"/></div>
+                    <h4 class="instal__item-title">Стаж специалистов<span>более 10 лет</span></h4>
+                    <p class="instal__item-discr">Каждый монтажник установил более 1700 окон и регулярно проходит курсы повышения квалификации</p>
+                  </div>
+                </div>
+                <div class="instal__content-img">
+                  <picture>
+                    <source media="(max-width:600px)" srcset="./img/montage/pic.png"/><img src="./img/montage/pic-big.png" alt="pic"/>
+                  </picture>
+                </div>
+                <div class="instal__content-col instal__content-right-col">
+                  <div class="instal__item">
+                    <div class="instal__item-icon"><img src="./img/montage/level-icon.png" alt="icon"/></div>
+                    <h4 class="instal__item-title">Сертифицированный<span>монтаж</span></h4>
+                    <p class="instal__item-discr">Потверждаем экспертизу в учебно-производственном центре “Межрегиональный институт окна”</p>
+                  </div>
+                  <div class="instal__item">
+                    <div class="instal__item-icon"><img src="./img/montage/level-icon.png" alt="icon"/></div>
+                    <h4 class="instal__item-title">Вызов инженера по замеру<span>бесплатно</span></h4>
+                    <p class="instal__item-discr">Потверждаем экспертизу в учебно-производственном центре “Межрегиональный институт окна”</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="discounts-s">
+        <div class="wrapper">
+          <div class="discounts">
+            <h3 class="title discounts__title">Скидки и<span>Акции</span></h3>
+            <p class="discr discounts__discr">Быстрый и качественный монтаж Быстрый<br> и качественный монтаж Быстрый и качественный монтаж</p>
+            <div class="discounts__slider" id="discounts">
+              <div class="slide-wrap">
+                <div class="discount">
+                  <div class="discount__content"><img class="discount__img" src="./img/discount/discount-photo1.jpg" alt="photo"/>
+                    <div class="discount__text">
+                      <h4 class="discount__title">Балкон дешевле</h4>
+                      <p class="discount__discr">При заказе остекления балкона или лоджии действует специальная скидка  в 25%</p>
+                    </div>
+                  </div>
+                  <div class="discount__block-btn"><a class="link-btn discount__btn" href="javascript:void(0)">Подробнее</a></div>
+                </div>
+              </div>
+              <div class="slide-wrap">
+                <div class="discount">
+                  <div class="discount__content"><img class="discount__img" src="./img/discount/discount-photo2.jpg" alt="photo"/>
+                    <div class="discount__text">
+                      <h4 class="discount__title">Привилегия”</h4>
+                      <p class="discount__discr">Честная скидка пенсионерам и льготным категориям граждан</p>
+                    </div>
+                  </div>
+                  <div class="discount__block-btn"><a class="link-btn discount__btn" href="javascript:void(0)">Подробнее</a></div>
+                </div>
+              </div>
+              <div class="slide-wrap">
+                <div class="discount">
+                  <div class="discount__content"><img class="discount__img" src="./img/discount/discount-photo3.jpg" alt="photo"/>
+                    <div class="discount__text">
+                      <h4 class="discount__title">Акция “Родителям”</h4>
+                      <p class="discount__discr">Для родителей - детский замок безопасности в подарок</p>
+                    </div>
+                  </div>
+                  <div class="discount__block-btn"><a class="link-btn discount__btn" href="javascript:void(0)">Подробнее</a></div>
+                </div>
+              </div>
+              <div class="slide-wrap">
+                <div class="discount">
+                  <div class="discount__content"><img class="discount__img" src="./img/discount/discount-photo1.jpg" alt="photo"/>
+                    <div class="discount__text">
+                      <h4 class="discount__title">Балкон дешевле</h4>
+                      <p class="discount__discr">При заказе остекления балкона или лоджии действует специальная скидка  в 25%</p>
+                    </div>
+                  </div>
+                  <div class="discount__block-btn"><a class="link-btn discount__btn" href="javascript:void(0)">Подробнее</a></div>
+                </div>
+              </div>
+              <div class="slide-wrap">
+                <div class="discount">
+                  <div class="discount__content"><img class="discount__img" src="./img/discount/discount-photo2.jpg" alt="photo"/>
+                    <div class="discount__text">
+                      <h4 class="discount__title">Привилегия”</h4>
+                      <p class="discount__discr">Честная скидка пенсионерам и льготным категориям граждан</p>
+                    </div>
+                  </div>
+                  <div class="discount__block-btn"><a class="link-btn discount__btn" href="javascript:void(0)">Подробнее</a></div>
+                </div>
+              </div>
+              <div class="slide-wrap">
+                <div class="discount">
+                  <div class="discount__content"><img class="discount__img" src="./img/discount/discount-photo3.jpg" alt="photo"/>
+                    <div class="discount__text">
+                      <h4 class="discount__title">Акция “Родителям”</h4>
+                      <p class="discount__discr">Для родителей - детский замок безопасности в подарок</p>
+                    </div>
+                  </div>
+                  <div class="discount__block-btn"><a class="link-btn discount__btn" href="javascript:void(0)">Подробнее</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="discounts__slider-nav">
+              <button class="discounts-arrow discounts-arrow__right" type="button">next</button>
+              <div class="slider-count"><span class="slider-count__current">4</span><span class="slider-count__line">/</span><span class="slider-count__lenght">6</span></div>
+              <button class="discounts-arrow discounts-arrow__left" type="button">prew</button>
+            </div>
+          </div>
+          <div class="modal-discount hidden">
+            <div class="modal-discount__wrap">
+              <div class="modal-discount__content">
+                <h4 class="modal-discount__title">Акция “Родителям”</h4>
+                <p class="modal-discount__subtitle">Для родителей - детский замок безопасности в подарок</p>
+                <div class="modal-discount__text">
+                  <p>Наши дети – это самое дорогое, что есть в жизни! Позаботиться об их безопасности Вы можете вместе с «Разумными Окнами». При заказе окон под ключ замок (ограничитель открывания створки) для безопасности детей BABY-STOP - в подарок (1 шт. на 1 окно).</p>
+                  <p>Акция действует для семей с маленькими детьми до 7 лет. Акция может суммироваться с сезонной скидкой.</p>
+                </div>
+                <div class="modal-discount__btn-block btn-block">
+                  <button class="btn btn-block__item modal-discount__btn btn-block__item--grey modal-discount--close" type="button">Закрыть акцию</button>
+                  <button class="btn btn-block__item modal-discount__btn" type="button">Заказать звонок</button>
+                </div>
+              </div>
+              <div class="modal-discount__img"><img src="./img/discount/discount-open.jpg" alt="photo"/></div>
+              <div class="modal-discount__overlay"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="calc-s">
+        <div class="calc-bg">
+          <div class="wrapper">
+            <div class="calc">
+              <h3 class="title calc__gen-title">Калькулятор<span>Окон ПВХ</span></h3>
+              <p class="discr calc__discr">С помощью калькулятора можно составить предварительную заявку, на основании которой менеджер выполнит расчёт.</p>
+              <div class="calc__wrap">
+                <form class="calc-form" action="#" method="post">
+                  <div class="calc-form__inner">
+                    <div class="calc__left-block">
+                      <div class="calc__img"><img src="./img/calc/window-prev.png" alt="window"/>
+                        <div class="ruler ruler__bot">1700 мм</div>
+                        <div class="ruler ruler__right">1500 мм</div>
+                      </div>
+                      <div class="calc__window-options">
+                        <div class="calc__window-select calc__window-options-item calc__window-select--active calc__window-select1"><span>Глухое</span>
+                          <div class="arrow-btn arrow-btn--active"></div>
+                        </div>
+                        <div class="calc__window-select calc__window-options-item calc__window-select2"><span>Поворотно-откидное</span>
+                          <div class="arrow-btn"></div>
+                        </div>
+                        <div class="calc__window-select calc__window-options-item calc__window-select3"><span>Глухое</span>
+                          <div class="arrow-btn"></div>
+                        </div>
+                        <ul class="select-list select-list--active calc__window-options-select">
+                          <li class="select-list__item select-list__item-active" data-select="Глухое">Глухое</li>
+                          <li class="select-list__item" data-select="Поворотно-откидное">Поворотно-откидное</li>
+                          <li class="select-list__item" data-select="Откидное">Откидное</li>
+                          <li class="select-list__item" data-select="Поворотное">Поворотное</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="calc__right-block">
+                      <div class="calc__window-type window-type">
+                        <div class="calc__title">Тип окна</div>
+                        <ul class="window-type__list">
+                          <li class="window-type__list-item" data-type="type1"><img src="./img/calc/w-icon1.png" alt="type1"/></li>
+                          <li class="window-type__list-item" data-type="type2"><img src="./img/calc/w-icon2.png" alt="type2"/></li>
+                          <li class="window-type__list-item window-type__list-item-active" data-type="type3"><img src="./img/calc/w-icon3.png" alt="type3"/></li>
+                          <li class="window-type__list-item" data-type="type4"><img src="./img/calc/w-icon4.png" alt="type4"/></li>
+                          <li class="window-type__list-item" data-type="type5"><img src="./img/calc/w-icon5.png" alt="type5"/></li>
+                          <li class="window-type__list-item" data-type="type6"><img src="./img/calc/w-icon6.png" alt="type6"/></li>
+                          <li class="window-type__list-item" data-type="type7"><img src="./img/calc/w-icon7.png" alt="type7"/></li>
+                        </ul>
+                      </div>
+                      <div class="calc__window-sizes">
+                        <div class="calc__window-width">
+                          <div class="calc__title">Ширина <span>(мм)</span></div>
+                          <input type="number" value="1330"/>
+                        </div>
+                        <div class="calc__window-height">
+                          <div class="calc__title">Высота <span>(мм)</span></div>
+                          <input type="number" value="1550"/>
+                        </div>
+                      </div>
+                      <div class="calc__window-glass">
+                        <div class="calc__title">Стеклопакет</div>
+                        <div class="calc__window-select calc__window-glass-item"><span>Мультифункциональный солнцезащитный.</span>
+                          <div class="arrow-btn"></div>
+                          <ul class="select-list select-list__column calc__window-glass-select">
+                            <li class="select-list__item select-list__item-active" data-select="Мультифункциональный солнцезащитный.">Мультифункциональный солнцезащитный.</li>
+                            <li class="select-list__item" data-select="Глухое">Мультифункциональный солнцезащитный.</li>
+                            <li class="select-list__item" data-select="Глухое">Мультифункциональный солнцезащитный.</li>
+                            <li class="select-list__item" data-select="Глухое">Мультифункциональный солнцезащитный.</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="calc__window-color">
+                        <div class="calc__title">Цвет</div>
+                        <div class="choose-color">
+                          <div class="choose-color__item choose-color__item--active choose-color__current"></div>
+                          <div class="choose-color__item choose-color__menu"></div>
+                          <ul class="choose-color__palette">
+                            <li class="choose-color__palette-item" data-color="red">red</li>
+                            <li class="choose-color__palette-item" data-color="blue">blue</li>
+                            <li class="choose-color__palette-item" data-color="green">green</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="calc__btn-block btn-block">
+                        <button class="btn btn-block__item calc__btn btn-block__item--grey" type="button">Сбросить</button>
+                        <button class="btn btn-block__item calc__btn" type="button">Новое окно</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="instalment-s">
+        <div class="wrapper">
+          <div class="instalment">
+            <h3 class="title instalment__title">Рассрочка на<span>Окна</span></h3>
+            <p class="discr instalment__discr">Комфорт стал еще доступнее</p>
+            <div class="instalment__content">
+              <div class="instalment__form-wrap">
+                <form class="instalment__form form" action="javasript:void(0)" method="post" name="instalment-form">
+                  <div class="instalment__form-inner">
+                    <p class="form__title">Оставьте заявку прямо сейчас и получите<span class="form__title--sale">скидку </span><span class="form__title--perc">45%</span></p>
+                    <label class="label label__user">
+                      <input class="input" type="name" name="user-name" placeholder="Ваше имя"/>
+                    </label>
+                    <label class="label label__phone">
+                      <input class="input" type="tel" name="phone" placeholder="Номер телефона"/>
+                    </label>
+                  </div>
+                  <button class="link-btn form__btn instalment__form-btn" type="submit">Заказать звонок</button>
+                </form>
+              </div>
+              <div class="instalment__conditions conditions">
+                <div class="conditions__item">
+                  <div class="conditions__item-plan conditions__item-plan1"><span class="conditions__item-plan-top">0%</span><span class="conditions__item-plan-bot">Первоначальный взнос</span></div>
+                </div>
+                <div class="conditions__item conditions__item--bg">
+                  <div class="conditions__item-plan conditions__item-plan2"><span class="conditions__item-plan-top">0%</span><span class="conditions__item-plan-bot">Переплаты за рассрочку</span></div>
+                </div>
+                <div class="conditions__item">
+                  <div class="conditions__item-plan conditions__item-plan3"><span class="conditions__item-plan-top">6</span><span class="conditions__item-plan-bot">Месяцев рассрочка</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="responses-s">
+        <div class="wrapper">
+          <div class="responses">
+            <h3 class="title instalment__title">Отзывы<span>Клиентов</span></h3>
+            <p class="discr instalment__discr">Прослушайте отзывы благодарных клиентов</p>
+            <div class="responses__slider">
+              <div class="responses-slider" id="responses">
+                <div class="slide-wrap">
+                  <div class="response responses-slider__item">
+                    <div class="response__avatar">
+                      <div class="response__avatar-img"><img src="./img/responses/photo1.jpg" alt="photo"/></div>
+                    </div>
+                    <p class="response__text">Благодарность команде монтажников<span class="response__author">- Сергей, 22 года</span></p>
+                    <div class="response__player player-panel">
+                      <div class="player-panel__play">
+                        <button class="player-panel__play-start" type="button"><img src="./img/responses/play-icon.png" alt="Play"/></button>
+                        <button class="player-panel__play-stop player-panel__btn-hidden" type="button"><img class="player-panel__play-stop" src="./img/responses/stop-icon.png" alt="Stop"/></button>
+                      </div>
+                      <div class="player-panel__progress-bar">
+                        <div class="player-panel__progress-bar-line"></div>
+                      </div>
+                      <div class="player-panel__volume"><img class="player-panel__play-volume" src="./img/responses/volume-icon.png" alt="Volume"/></div>
+                      <div class="player-panel__volume-panel">
+                        <div class="player-panel__volume-line"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide-wrap">
+                  <div class="response responses-slider__item">
+                    <div class="response__avatar">
+                      <div class="response__avatar-img"><img src="./img/responses/photo2.jpg" alt="photo"/></div>
+                    </div>
+                    <p class="response__text">Благодарность за быструю работу Благодарность за быструю работу<span class="response__author">- Борис, 34 года</span></p>
+                    <div class="response__player player-panel">
+                      <div class="player-panel__play">
+                        <button class="player-panel__play-start" type="button"><img src="./img/responses/play-icon.png" alt="Play"/></button>
+                        <button class="player-panel__play-stop player-panel__btn-hidden" type="button"><img class="player-panel__play-stop" src="./img/responses/stop-icon.png" alt="Stop"/></button>
+                      </div>
+                      <div class="player-panel__progress-bar">
+                        <div class="player-panel__progress-bar-line"></div>
+                      </div>
+                      <div class="player-panel__volume"><img class="player-panel__play-volume" src="./img/responses/volume-icon.png" alt="Volume"/></div>
+                      <div class="player-panel__volume-panel">
+                        <div class="player-panel__volume-line"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide-wrap">
+                  <div class="response responses-slider__item">
+                    <div class="response__avatar">
+                      <div class="response__avatar-img"><img src="./img/responses/photo3.jpg" alt="photo"/></div>
+                    </div>
+                    <p class="response__text">Спасибо, что своевременно устранили поломку<span class="response__author">- Ирина, 69 лет</span></p>
+                    <div class="response__player player-panel">
+                      <div class="player-panel__play">
+                        <button class="player-panel__play-start" type="button"><img src="./img/responses/play-icon.png" alt="Play"/></button>
+                        <button class="player-panel__play-stop player-panel__btn-hidden" type="button"><img class="player-panel__play-stop" src="./img/responses/stop-icon.png" alt="Stop"/></button>
+                      </div>
+                      <div class="player-panel__progress-bar">
+                        <div class="player-panel__progress-bar-line"></div>
+                      </div>
+                      <div class="player-panel__volume"><img class="player-panel__play-volume" src="./img/responses/volume-icon.png" alt="Volume"/></div>
+                      <div class="player-panel__volume-panel">
+                        <div class="player-panel__volume-line"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide-wrap">
+                  <div class="response responses-slider__item">
+                    <div class="response__avatar">
+                      <div class="response__avatar-img"><img src="./img/responses/photo2.jpg" alt="photo"/></div>
+                    </div>
+                    <p class="response__text">Благодарность за быструю работу<span class="response__author">- Борис, 34 года</span></p>
+                    <div class="response__player player-panel">
+                      <div class="player-panel__play">
+                        <button class="player-panel__play-start" type="button"><img src="./img/responses/play-icon.png" alt="Play"/></button>
+                        <button class="player-panel__play-stop player-panel__btn-hidden" type="button"><img class="player-panel__play-stop" src="./img/responses/stop-icon.png" alt="Stop"/></button>
+                      </div>
+                      <div class="player-panel__progress-bar">
+                        <div class="player-panel__progress-bar-line"></div>
+                      </div>
+                      <div class="player-panel__volume">
+                        <button class="player-panel__play-volume" type="button"><img src="./img/responses/volume-icon.png" alt="Volume"/></button>
+                      </div>
+                      <div class="player-panel__volume-panel">
+                        <div class="player-panel__volume-line"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="responses-arrow responses-arrow__right" type="button"><img src="./img/responses/nav-right.png" alt="next"/></button>
+              <button class="responses-arrow responses-arrow__left" type="button"><img src="./img/responses/nav-left.png" alt="prew"/></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__map" id="map">
+        <div class="contacts">
+          <div class="contacts__inner">
+            <div class="contact contacts__item">
+              <div class="contact__type">Адрес</div>
+              <div class="contact__text">
+                <div class="contact__text-item">просп. Просвещения, 53 корп. 1</div>
+              </div>
+            </div>
+            <div class="contact contacts__item">
+              <div class="contact__type">Телефон</div>
+              <div class="contact__text">
+                <div class="contact__text-item">701-00-18</div>
+                <div class="contact__text-item">701-00-18</div>
+              </div>
+            </div>
+            <div class="contact contacts__item">
+              <div class="contact__type">E-mail</div>
+              <div class="contact__text">
+                <div class="contact__text-item">windows@gmail.com</div>
+              </div>
+            </div>
+            <ul class="social-btn footer__social-btn">
+              <li class="social-btn__item"><a class="social-btn__link social-btn__link--vk">Вконтакте</a></li>
+              <li class="social-btn__item"><a class="social-btn__link social-btn__link--tw">Твиттер</a></li>
+            </ul>
+            <form class="footer__form form" action="javasript:void(0)" method="post" name="contacts-form">
+              <label class="label label__user">
+                <input class="input footer__input" type="name" name="user-name" placeholder="Ваше имя">
+              </label>
+              <label class="label label__phone">
+                <input class="input footer__input" type="tel" name="phone" placeholder="Номер телефона">
+              </label>
+              <button class="link-btn form__btn footer__form-btn" type="submit">Заказать звонок</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="overlay hidden"></div>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=f249d6ae-df04-48ac-879f-30cbdbc1c069&amp;lang=ru_RU" type="text/javascript"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/vendor.js"></script>
+  </body>
+</html>
