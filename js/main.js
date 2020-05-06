@@ -178,6 +178,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
+/***/ "./src/blocks/components/lamination/lamination.js":
+/*!********************************************************!*\
+  !*** ./src/blocks/components/lamination/lamination.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYmxvY2tzL2NvbXBvbmVudHMvbGFtaW5hdGlvbi9sYW1pbmF0aW9uLmpzLmpzIiwic291cmNlcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/blocks/components/lamination/lamination.js\n");
+
+/***/ }),
+
 /***/ "./src/blocks/components/responses/responses.js":
 /*!******************************************************!*\
   !*** ./src/blocks/components/responses/responses.js ***!
@@ -231,7 +242,7 @@ eval("// import $ from 'jquery';\n// import 'slick-carousel';//# sourceURL=[modu
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _blocks_components_burger_burger_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../blocks/components/burger/burger.js */ \"./src/blocks/components/burger/burger.js\");\n/* harmony import */ var _blocks_components_burger_burger_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_blocks_components_burger_burger_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _blocks_components_responses_responses_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../blocks/components/responses/responses.js */ \"./src/blocks/components/responses/responses.js\");\n/* harmony import */ var _blocks_components_discounts_discounts_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../blocks/components/discounts/discounts.js */ \"./src/blocks/components/discounts/discounts.js\");\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvanMvaW1wb3J0L2NvbXBvbmVudHMuanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvanMvaW1wb3J0L2NvbXBvbmVudHMuanM/OGI0ZSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgXCIuLi8uLi9ibG9ja3MvY29tcG9uZW50cy9idXJnZXIvYnVyZ2VyLmpzXCI7XG5pbXBvcnQgXCIuLi8uLi9ibG9ja3MvY29tcG9uZW50cy9yZXNwb25zZXMvcmVzcG9uc2VzLmpzXCI7XG5pbXBvcnQgXCIuLi8uLi9ibG9ja3MvY29tcG9uZW50cy9kaXNjb3VudHMvZGlzY291bnRzLmpzXCI7Il0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTsiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/js/import/components.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _blocks_components_burger_burger_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../blocks/components/burger/burger.js */ \"./src/blocks/components/burger/burger.js\");\n/* harmony import */ var _blocks_components_burger_burger_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_blocks_components_burger_burger_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _blocks_components_responses_responses_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../blocks/components/responses/responses.js */ \"./src/blocks/components/responses/responses.js\");\n/* harmony import */ var _blocks_components_discounts_discounts_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../blocks/components/discounts/discounts.js */ \"./src/blocks/components/discounts/discounts.js\");\n/* harmony import */ var _blocks_components_lamination_lamination_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../blocks/components/lamination/lamination.js */ \"./src/blocks/components/lamination/lamination.js\");\n/* harmony import */ var _blocks_components_lamination_lamination_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_blocks_components_lamination_lamination_js__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvanMvaW1wb3J0L2NvbXBvbmVudHMuanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvanMvaW1wb3J0L2NvbXBvbmVudHMuanM/OGI0ZSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgXCIuLi8uLi9ibG9ja3MvY29tcG9uZW50cy9idXJnZXIvYnVyZ2VyLmpzXCI7XG5pbXBvcnQgXCIuLi8uLi9ibG9ja3MvY29tcG9uZW50cy9yZXNwb25zZXMvcmVzcG9uc2VzLmpzXCI7XG5pbXBvcnQgXCIuLi8uLi9ibG9ja3MvY29tcG9uZW50cy9kaXNjb3VudHMvZGlzY291bnRzLmpzXCI7XG5pbXBvcnQgXCIuLi8uLi9ibG9ja3MvY29tcG9uZW50cy9sYW1pbmF0aW9uL2xhbWluYXRpb24uanNcIjsiXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUNBOyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/js/import/components.js\n");
 
 /***/ }),
 
