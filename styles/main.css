@@ -3110,6 +3110,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .portfolio-bg {
+  padding-top: 55px;
   background: url('../img/portfolio/portfolio-bg.jpg') no-repeat center center / cover;
 }
 
@@ -3138,7 +3139,8 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   max-width: 1445px;
   margin: 0 auto;
-  padding: 0 20px;
+  margin-top: 65px;
+  padding: 0 5px;
   padding-bottom: 30px;
 }
 
@@ -3147,41 +3149,90 @@ input:focus:-ms-input-placeholder {
   height: auto;
 }
 
+.portfolio__slider {
+  position: relative;
+  padding-bottom: 70px;
+}
+
 .portfolio__slider-item {
-  display: flex;
+  display: flex !important;
   justify-content: space-between;
 }
 
 .portfolio__left-block {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  max-width: 808px;
+  width: 58%;
   margin-bottom: -25px;
 }
 
 .portfolio__left-block-item {
-  width: 100%;
-  max-width: 383px;
+  display: flex;
+  flex: 0 1 47%;
+  max-width: 47%;
   margin-bottom: 25px;
   margin-right: 20px;
 }
 
-.portfolio__row {
+.portfolio__right-block {
   display: flex;
+  width: 42%;
+}
+
+.portfolio .slick-list {
+  width: 100%;
+  overflow: hidden;
+}
+
+.portfolio .slick-track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 
-.portfolio__right-block {
+.portfolio .slick-slide {
+  padding: 0 15px;
+  height: auto !important;
+}
+
+.portfolio .slick-slide > div {
+  height: 100%;
+}
+
+.portfolio .slick-dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
+}
+
+.portfolio .slick-dots .slick-active {
+  background-color: #fff;
+}
+
+.portfolio .slick-dots li {
+  flex: none;
+  width: 12px;
+  height: 12px;
+  margin-right: 20px;
+  font-size: 0;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+.portfolio .slick-dots button {
   width: 100%;
-  max-width: 585px;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   border-radius: 13px;
   overflow: hidden;
   background-color: #ffffff;
@@ -3588,6 +3639,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .responses-s {
+  margin-top: 180px;
   padding-bottom: 160px;
 }
 
@@ -4374,6 +4426,27 @@ input:focus:-ms-input-placeholder {
     order: 3;
   }
 
+  .portfolio__left-block {
+    width: 45%;
+  }
+
+  .portfolio__left-block-item {
+    flex: 0 1 100%;
+    max-width: 100%;
+  }
+
+  .portfolio__left-block-item:nth-child(3) {
+    display: none;
+  }
+
+  .portfolio__left-block-item:nth-child(4) {
+    display: none;
+  }
+
+  .portfolio__right-block {
+    width: 55%;
+  }
+
   .accessories-s {
     margin-top: 120px;
   }
@@ -4817,6 +4890,14 @@ input:focus:-ms-input-placeholder {
     font-size: 16px;
   }
 
+  .portfolio-bg {
+    padding-top: 35px;
+  }
+
+  .portfolio__container {
+    margin-top: 40px;
+  }
+
   .footer__social-btn {
     margin-top: 30px;
   }
@@ -4839,6 +4920,10 @@ input:focus:-ms-input-placeholder {
 
   .instalment-s {
     padding-top: 80px;
+  }
+
+  .responses-s {
+    margin-top: 100px;
   }
 }
 
@@ -5278,6 +5363,22 @@ input:focus:-ms-input-placeholder {
     box-shadow: 0 4px 51px 8px rgba(0, 0, 0, 0.15);
   }
 
+  .card__content {
+    padding: 20px;
+  }
+
+  .card__content-big {
+    padding: 30px;
+  }
+
+  .card__title {
+    margin-top: 15px;
+  }
+
+  .card__discr-big {
+    margin-top: 15px;
+  }
+
   .service-title {
     font-size: 40px;
   }
@@ -5344,6 +5445,15 @@ input:focus:-ms-input-placeholder {
     margin-top: 70px;
   }
 
+  .portfolio__left-block {
+    display: none;
+  }
+
+  .portfolio__right-block {
+    width: 65%;
+    margin: 0 auto;
+  }
+
   .footer__map {
     min-height: 950px;
   }
@@ -5364,6 +5474,7 @@ input:focus:-ms-input-placeholder {
   }
 
   .responses-s {
+    margin-top: 70px;
     padding-bottom: 60px;
   }
 }
@@ -5741,6 +5852,24 @@ input:focus:-ms-input-placeholder {
     margin-top: 0;
     margin-bottom: 8px;
     order: 1;
+  }
+
+  .portfolio__right-block {
+    width: 80%;
+  }
+
+  .card__content-big {
+    padding: 20px;
+  }
+
+  .card__title {
+    margin-top: 0;
+    font-size: 18px;
+  }
+
+  .card__discr-big {
+    margin-top: 10px;
+    font-size: 14px;
   }
 
   .footer__social-btn {
@@ -6403,6 +6532,31 @@ input:focus:-ms-input-placeholder {
 
   .constructor {
     margin-top: 32px;
+  }
+
+  .portfolio__container {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+
+  .portfolio__right-block {
+    width: 100%;
+  }
+
+  .portfolio .slick-slide {
+    padding: 0;
+  }
+
+  .portfolio .slick-dots {
+    bottom: 30px;
+  }
+
+  .card__title {
+    font-size: 14px;
+  }
+
+  .card__discr-big {
+    font-size: 11px;
   }
 
   .header {
