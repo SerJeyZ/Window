@@ -316,26 +316,25 @@
             <div class="constructor">
               <div class="constructor__left-dots">
                 <ul class="laminat-slider laminat-slider__left" id="left-dots">
-                  <li class="laminat-slider__item"><span class="laminat-slider__title">Бронза</span><span class="laminat-slider__img"><img src="./img/lamination/left-dot1.jpg" alt="wood1"/></span></li>
-                  <li class="laminat-slider__item laminat-slider__item-current"><span class="laminat-slider__title">Титан</span><span class="laminat-slider__img"><img src="./img/lamination/left-dot2.jpg" alt="wood2"/></span></li>
-                  <li class="laminat-slider__item"><span class="laminat-slider__title">Латунь</span><span class="laminat-slider__img"><img src="./img/lamination/left-dot3.jpg" alt="wood3"/></span></li>
+                  <li class="laminat-slider__item show" data-src="./img/lamination/handle-white.png"><span class="laminat-slider__title laminat-slider__title-left">Бронза</span><span class="laminat-slider__img laminat-slider__img-left" style="background:url(../img/lamination/left-dot1.jpg)"></span></li>
+                  <li class="laminat-slider__item show laminat-slider__item-current" data-src="./img/lamination/handle-white.png"><span class="laminat-slider__title laminat-slider__title-left">Титан</span><span class="laminat-slider__img laminat-slider__img-left" style="background:url(../img/lamination/left-dot2.jpg)"></span></li>
+                  <li class="laminat-slider__item show" data-src="./img/lamination/handle-white.png"><span class="laminat-slider__title laminat-slider__title-left">Латунь</span><span class="laminat-slider__img laminat-slider__img-left" style="background:url(../img/lamination/left-dot3.jpg)"></span></li>
+                  <li class="laminat-slider__item " data-src="./img/lamination/handle-white.png"><span class="laminat-slider__title laminat-slider__title-left">Бронза</span><span class="laminat-slider__img laminat-slider__img-left" style="background:url(../img/lamination/left-dot1.jpg)"></span></li>
+                  <li class="laminat-slider__item " data-src="./img/lamination/handle-white.png"><span class="laminat-slider__title laminat-slider__title-left">Титан</span><span class="laminat-slider__img laminat-slider__img-left" style="background:url(../img/lamination/left-dot2.jpg)"></span></li>
+                  <li class="laminat-slider__item " data-src="./img/lamination/handle-white.png"><span class="laminat-slider__title laminat-slider__title-left">Латунь</span><span class="laminat-slider__img laminat-slider__img-left" style="background:url(../img/lamination/left-dot3.jpg)"></span></li>
                 </ul>
                 <div class="lamination__slider-arrow lamination__slider-arrow-left">
-                  <button class="lamination__arrow lamination__arrow-left-next" type="button">
-                    <picture><img src="./img/lamination/arrow-up-l.png" alt="next"/></picture>
-                  </button>
+                  <button class="lamination__arrow lamination__arrow-left-next" type="button"></button>
                   <div class="lamination__slider-arrow-content">
                     <p class="lamination__slider-arrow-title">выберите цвет ручки</p>
-                    <div class="slider-count lamination__slider-count-left"><span class="slider-count__current">1</span><span class="slider-count__line">/</span><span class="slider-count__lenght">4</span></div>
+                    <div class="slider-count lamination__slider-count-left"><span class="slider-count__current" id="lamination-left-slide__current">1</span><span class="slider-count__line">/</span><span class="slider-count__lenght" id="lamination-left-slide__lenght">4</span></div>
                   </div>
-                  <button class="lamination__arrow lamination__arrow-left-prew" type="button">
-                    <picture><img src="./img/lamination/arrow-down-l.png" alt="prev"/></picture>
-                  </button>
+                  <button class="lamination__arrow lamination__arrow-left-prew" type="button"></button>
                 </div>
               </div>
               <div class="constructor__center-block">
                 <div class="constructor__window-handle">
-                  <picture>
+                  <picture class="constructor__window-handle-img">
                     <source media="(max-width:900px)" srcset="./img/lamination/handle-white-mob.png"/><img src="./img/lamination/handle-white.png" alt="next"/>
                   </picture>
                 </div>
@@ -347,32 +346,31 @@
               </div>
               <div class="constructor__right-dots">
                 <ul class="laminat-slider laminat-slider__right" id="right-dots">
-                  <li class="laminat-slider__item-right"><span class="laminat-slider__title laminat-slider__title--right">Золотой дуб</span><span class="laminat-slider__img laminat-slider__img--right"><img src="./img/lamination/right-dot1.jpg" alt="Золотой дуб"/></span></li>
-                  <li class="laminat-slider__item-right"><span class="laminat-slider__title">Винчестер</span><span class="laminat-slider__img"><img src="./img/lamination/right-dot2.jpg" alt="Винчестер"/></span></li>
-                  <li class="laminat-slider__item-right laminat-slider__item-current-right"><span class="laminat-slider__title">Болотный дуб</span><span class="laminat-slider__img"><img src="./img/lamination/right-dot3.jpg" alt="Болотный дуб"/></span></li>
-                  <li class="laminat-slider__item-right"><span class="laminat-slider__title laminat-slider__title--right">Сиена ноче</span><span class="laminat-slider__img laminat-slider__img--right"><img src="./img/lamination/right-dot4.jpg" alt="Сиена ноче"/></span></li>
-                  <li class="laminat-slider__item-right"><span class="laminat-slider__title laminat-slider__title--right">Дуб рустиакльный</span><span class="laminat-slider__img laminat-slider__img--right"><img src="./img/lamination/right-dot5.jpg" alt="Дуб рустиакльный"/></span></li>
+                  <li class="laminat-slider__item-right " data-src="./img/lamination/laminat-1.png"><span class="laminat-slider__title laminat-slider__title--right">Золотой дуб</span><span class="laminat-slider__img laminat-slider__img--right" style="background:url(../img/lamination/right-dot1.jpg)"></span></li>
+                  <li class="laminat-slider__item-right " data-src="./img/lamination/laminat-1.png"><span class="laminat-slider__title laminat-slider__title--right">Винчестер</span><span class="laminat-slider__img laminat-slider__img--right" style="background:url(../img/lamination/right-dot2.jpg)"></span></li>
+                  <li class="laminat-slider__item-right laminat-slider__item-current-right" data-src="./img/lamination/laminat-1.png"><span class="laminat-slider__title laminat-slider__title--right">Болотный дуб</span><span class="laminat-slider__img laminat-slider__img--right" style="background:url(../img/lamination/right-dot3.jpg)"></span></li>
+                  <li class="laminat-slider__item-right " data-src="./img/lamination/laminat-1.png"><span class="laminat-slider__title laminat-slider__title--right">Сиена ноче</span><span class="laminat-slider__img laminat-slider__img--right" style="background:url(../img/lamination/right-dot4.jpg)"></span></li>
+                  <li class="laminat-slider__item-right " data-src="./img/lamination/laminat-1.png"><span class="laminat-slider__title laminat-slider__title--right">Дуб рустиакльный</span><span class="laminat-slider__img laminat-slider__img--right" style="background:url(../img/lamination/right-dot5.jpg)"></span></li>
                 </ul>
                 <div class="lamination__slider-arrow lamination__slider-arrow-right">
-                  <button class="lamination__arrow lamination__arrow-right-next" type="button">
-                    <picture>
-                      <source media="(max-width:1100px)" srcset="./img/lamination/arrow-up-r.png"/><img src="./img/lamination/arrow-up-r.png" alt="next"/>
-                    </picture>
-                  </button>
+                  <button class="lamination__arrow lamination__arrow-right-next" type="button"></button>
                   <div class="lamination__slider-arrow-content">
                     <p class="lamination__slider-arrow-title">выберите ламинат</p>
-                    <div class="slider-count lamination__slider-count-right"><span class="slider-count__current">1</span><span class="slider-count__line">/</span><span class="slider-count__lenght">4</span></div>
+                    <div class="slider-count lamination__slider-count-right"><span class="slider-count__current" id="lamination-right-slide__current">1</span><span class="slider-count__line">/</span><span class="slider-count__lenght" id="lamination-right-slide__lenght">4</span></div>
                   </div>
-                  <button class="lamination__arrow lamination__arrow-right-prew" type="button">
-                    <picture>
-                      <source media="(max-width:1100px)" srcset="./img/lamination/arrow-down-r.png"/><img src="./img/lamination/arrow-down-r.png" alt="prev"/>
-                    </picture>
-                  </button>
+                  <button class="lamination__arrow lamination__arrow-right-prew" type="button"></button>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <template id="lamination-template">
+          <li class="laminat-slider__item"><span class="laminat-slider__title laminat-slider__title-left"></span><span class="laminat-slider__img laminat-slider__img-left"></span></li>
+          <picture>
+            <source media="(max-width:900px)" srcset="./img/lamination/handle-white-mob.png"/><img src="./img/lamination/handle-white.png" alt="next"/>
+          </picture>
+          <li class="laminat-slider__item-right"><span class="laminat-slider__title laminat-slider__title--right"></span><span class="laminat-slider__img laminat-slider__img--right"></span></li>
+        </template>
       </section>
       <section class="discounts-s">
         <div class="wrapper">
@@ -449,7 +447,7 @@
             </div>
             <div class="discounts__slider-nav">
               <button class="discounts-arrow discounts-arrow__right" type="button">next</button>
-              <div class="slider-count"><span class="slider-count__current">4</span><span class="slider-count__line">/</span><span class="slider-count__lenght">6</span></div>
+              <div class="slider-count discounts__count"><span class="slider-count__current discounts__count-current">4</span><span class="slider-count__line">/</span><span class="slider-count__lenght discounts__count-lenght">6</span></div>
               <button class="discounts-arrow discounts-arrow__left" type="button">prew</button>
             </div>
           </div>
