@@ -9,6 +9,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="./styles/main.min.css">
+    <link rel="preload" href="./fonts/MagistralC.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/MagistralC-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/DINPro.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/DINPro-Medium.woff2" as="font" type="font/woff2" crossorigin>
   </head>
   <body>
     <header class="header">
@@ -16,7 +20,7 @@
         <div class="header__top-line">
           <div class="header__logo">
             <picture>
-              <source media="(max-width: 1024px)" data-srcset="./img/logo-mobile.png"><img class="lazyload" data-src="./img/logo.png" alt="Разумные окна">
+              <source media="(max-width: 1024px)" data-srcset="./img/header/logo-mobile.png" srcset="data:image/gif;base64,R0lGODlhNAATAIAAAP///wAAACH5BAEAAAEALAAAAAA0ABMAAAIdjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbu6xYAOw=="><img class="lazyload" data-src="./img/header/logo.png" src="data:image/gif;base64,R0lGODlhZgBDAIAAAP///wAAACH5BAEAAAEALAAAAABmAEMAAAJcjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y6nFQAAOw==" alt="Разумные окна">
             </picture>
           </div>
           <div class="header__top-menu">
@@ -33,7 +37,7 @@
               </ul>
             </nav>
             <div class="mobail-menu">
-              <div class="mobail-menu__logo"><img class="lazyload" data-src="./img/logo-mobile.png" alt="Разумные окна"/></div>
+              <div class="mobail-menu__logo"><img class="lazyload" data-src="./img/header/logo-mobile.png" src="data:image/gif;base64,R0lGODlhNAATAIAAAP///wAAACH5BAEAAAEALAAAAAA0ABMAAAIdjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbu6xYAOw==" alt="Разумные окна"/></div>
               <nav class="page-navigation-mob">
                 <ul class="nav-list">
                   <li class="nav-list__item"><a class="link nav-list__link" href="#services">Услуги</a></li>
@@ -46,11 +50,11 @@
                   <li class="nav-list__item"><a class="link nav-list__link" href="#contacts">Контакты</a></li>
                 </ul>
               </nav>
-              <div class="mobail-menu__close"><img class="lazyload" data-src="./img/menu-close.svg" alt="Закрыть меню"/></div>
+              <div class="mobail-menu__close"><img class="lazyload" data-src="./img/header/menu-close.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="Закрыть меню"/></div>
             </div>
             <div class="header__phone">701-00-18</div>
           </div>
-          <div class="burger"><img class="lazyload" data-src="./img/burger.svg" alt="Открыть меню"></div>
+          <div class="burger"><img class="lazyload" data-src="./img/header/burger.svg" src="data:image/gif;base64,R0lGODlhNAATAIAAAP///wAAACH5BAEAAAEALAAAAAA0ABMAAAIdjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbu6xYAOw==" alt="Открыть меню"></div>
         </div>
         <div class="header__content">
           <div class="hero">
@@ -61,24 +65,24 @@
                   <p class="hero__promo-text">индивидуальный подход<br> к  потребностям клиента</p>
                   <p class="hero__discr">Мы команда профессионалов, нацеленных на предоставление вам максимально качественных услуг по установке пластиковых оконных систем</p>
                 </div>
-                <div class="hero__mobile-img"><img class="img-responsive lazyload" data-src="./img/hero-window.png" alt="window"/></div>
+                <div class="hero__mobile-img"><img class="img-responsive lazyload" data-src="./img/hero/hero-window-mob.png" src="data:image/gif;base64,R0lGODlhFAATAIAAAP///wAAACH5BAEAAAEALAAAAAAUABMAAAIRjI+py+0Po5y02ouz3rz7bxQAOw==" alt="window"/></div>
                 <div class="hero__action-block action">
                   <div class="action__wrap">
                     <div class="action__item">
                       <picture>
-                        <source media="(max-width: 950px)" data-srcset="./img/ruler-mobile.png"/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/ruler.png" alt="action"/>
+                        <source media="(max-width: 950px)" data-srcset="./img/hero/ruler-mobile.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/hero/ruler.png" alt="action"/>
                       </picture>
                       <p class="action__discr">Бесплатный замер</p>
                     </div>
                     <div class="action__item">
                       <picture>
-                        <source media="(max-width: 950px)" data-srcset="./img/action-icon2-mobile.png"/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/action-icon2.png" alt="action"/>
+                        <source media="(max-width: 950px)" data-srcset="./img/hero/action-icon2-mobile.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/hero/action-icon2.png" alt="action"/>
                       </picture>
                       <p class="action__discr">Скидки<br> до 49%</p>
                     </div>
                     <div class="action__item">
                       <picture>
-                        <source media="(max-width: 950px)" data-srcset="./img/action-icon3-mobile.png"/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/action-icon3.png" alt="action"/>
+                        <source media="(max-width: 950px)" data-srcset="./img/hero/action-icon3-mobile.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/hero/action-icon3.png" alt="action"/>
                       </picture>
                       <p class="action__discr">Потолок<br> в подарок</p>
                     </div>
@@ -86,7 +90,7 @@
                   <div class="action__block-btn"><a class="link-btn action__btn link-btn--bg-white" href="#actions">Все акции</a></div>
                 </div>
               </div>
-              <div class="hero__right-block"><img class="img-responsive lazyload" data-src="./img/hero-window.png" alt="window"/></div>
+              <div class="hero__right-block"><img class="img-responsive lazyload" data-src="./img/hero/hero-window.png" src="data:image/gif;base64,R0lGODlhCwAKAIAAAP///wAAACH5BAEAAAEALAAAAAALAAoAAAIJjI+py+0Po0wFADs=" alt="window"/></div>
             </div>
           </div>
         </div>
@@ -95,7 +99,7 @@
         <div class="header-form__title">Есть вопросы?</div>
         <div class="header-form__text">Перезвоним в течении 1 минуты!</div>
         <form class="header-form__form" action="#" method="post" name="header-form">
-          <input type="name" name="user-name" placeholder="ваше имя">
+          <input type="text" name="user-name" placeholder="ваше имя">
           <input type="tel" name="phone" placeholder="номер телефона">
           <button class="link-btn header-form__btn" type="submit">Заказать звонок</button>
         </form>
@@ -108,17 +112,17 @@
             <h3 class="service-title"> <span class="service-title__text">услуги</span></h3>
             <div class="services__content">
               <div class="services__item">
-                <div class="services__img"><img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhoAB7AIAAAP///wAAACH5BAEAAAEALAAAAACgAHsAAAKsjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnFxbAAA7" data-src="./img/service-1.jpg" alt="Окна"></div>
+                <div class="services__img"><img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhoAB7AIAAAP///wAAACH5BAEAAAEALAAAAACgAHsAAAKsjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnFxbAAA7" data-src="./img/service/service-1.jpg" alt="Окна"></div>
                 <h4 class="services__item-title">Окна и Двери</h4>
                 <p class="services__item-discr">Мы команда профессионалов, нацеленных на предоставление</p>
               </div>
               <div class="services__item">
-                <div class="services__img"><img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhoAB7AIAAAP///wAAACH5BAEAAAEALAAAAACgAHsAAAKsjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnFxbAAA7" data-src="./img/service-2.jpg" alt="Балконы"></div>
+                <div class="services__img"><img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhoAB7AIAAAP///wAAACH5BAEAAAEALAAAAACgAHsAAAKsjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnFxbAAA7" data-src="./img/service/service-2.jpg" alt="Балконы"></div>
                 <h4 class="services__item-title">Балконы и Лоджии</h4>
                 <p class="services__item-discr">Мы команда профессионалов, нацеленных на предоставление максимально</p>
               </div>
               <div class="services__item">
-                <div class="services__img"><img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhoAB7AIAAAP///wAAACH5BAEAAAEALAAAAACgAHsAAAKsjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnFxbAAA7" data-src="./img/service-3.jpg" alt="Коттеджи"></div>
+                <div class="services__img"><img class="img-responsive lazyload" src="data:image/gif;base64,R0lGODlhoAB7AIAAAP///wAAACH5BAEAAAEALAAAAACgAHsAAAKsjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnFxbAAA7" data-src="./img/service/service-3.jpg" alt="Коттеджи"></div>
                 <h4 class="services__item-title">Коттеджи и Дачи</h4>
                 <p class="services__item-discr">Мы команда профессионалов, нацеленных на предоставление максимально каче</p>
               </div>
@@ -134,7 +138,7 @@
               <div class="adventages__items">
                 <div class="adventages__items-img">
                   <picture>
-                    <source media="(max-width: 1366px)" srcset="./img/window-pic-mob.png"/><img class="lazyload" data-src="./img/window-pic.png" alt="w"/>
+                    <source media="(max-width: 1366px)" data-srcset="./img/adventages/window-pic-mob.png" srcset="data:image/gif;base64,R0lGODlhFwAUAIAAAP///wAAACH5BAEAAAEALAAAAAAXABQAAAITjI+py+0Po5y02ouz3rz7D4ZdAQA7"/><img class="lazyload" data-src="./img/adventages/window-pic.png" src="data:image/gif;base64,R0lGODlhFwAUAIAAAP///wAAACH5BAEAAAEALAAAAAAXABQAAAITjI+py+0Po5y02ouz3rz7D4ZdAQA7" alt="w"/>
                   </picture>
                 </div>
                 <div class="adventages__item adventages__item-enrgy">
@@ -169,7 +173,7 @@
               <h3 class="title models__title">Модели<span>Окон</span></h3>
               <p class="discr models__discr">Выбирете модель окна</p>
               <div class="tab-panel">
-                <div class="tabs tab-panel__left-block">
+                <div class="tabs tab-panel__left-block" id="model-tabs">
                   <div class="model-tab">
                     <div class="model-tab__item model-tab__item-active">Artline</div>
                     <div class="model-tab__item">Evolution</div>
@@ -181,35 +185,192 @@
                     <div class="model-tab__item">WHS72</div>
                   </div>
                 </div>
-                <div class="tab-panel__right-block">
-                  <div class="tab-panel__model-img">
-                    <picture>
-                      <source media="(max-width:767px)" data-srcset="./img/model-img-mob.png"/><img class="lazyload" data-src="./img/model-img.png" alt="Artline"/>
-                    </picture>
+                <div class="tab-panel__right-block" id="model-right-block">
+                  <div class="tab-panel__right-block-item tab-panel__right-block-item-show">
+                    <div class="tab-panel__model-img">
+                      <picture>
+                        <source media="(max-width:767px)" data-srcset="./img/models/model-img-mob.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" data-src="./img/models/model-img.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="Artline"/>
+                      </picture>
+                    </div>
+                    <div class="info-panel tab-panel__model-info">
+                      <div class="info-panel__text"><strong class="info-panel__product-type">Профиль</strong>
+                        <h4 class="info-panel__title">Artline</h4>
+                        <p class="info-panel__promo-text">Мощность и энергоэффективность</p>
+                      </div>
+                      <div class="info-panel__properties">
+                        <div class="progress-bar"><span class="progress-bar__title">Тепло</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-1" data-line="95%"></div>
+                          </div>
+                        </div>
+                        <div class="progress-bar"><span class="progress-bar__title">Тишина</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-2" data-line="75%"></div>
+                          </div>
+                        </div>
+                        <div class="progress-bar"><span class="progress-bar__title">Безопасность</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-3" data-line="85%"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="price info-panel__price"><span class="price__first"><sup>от</sup><span>5600</span></span><span class="price__last">р/м<sup>2</sup></span></div><a class="link-btn info-panel__btn" href="javascript:void(0)">Приобрести</a>
+                    </div>
                   </div>
-                  <div class="info-panel tab-panel__model-info">
-                    <div class="info-panel__text"><strong class="info-panel__product-type">Профиль</strong>
-                      <h4 class="info-panel__title">Artline</h4>
-                      <p class="info-panel__promo-text">Мощность и энергоэффективность</p>
+                  <div class="tab-panel__right-block-item">
+                    <div class="tab-panel__model-img">
+                      <picture>
+                        <source media="(max-width:767px)" data-srcset="./img/models/model-img-mob.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" data-src="./img/models/model-img.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="Evolution"/>
+                      </picture>
                     </div>
-                    <div class="info-panel__properties">
-                      <div class="progress-bar"><span class="progress-bar__title">Тепло</span>
-                        <div class="progress-bar__line">
-                          <div class="progress-bar__line-inner progress-bar__line-inner-1"></div>
+                    <div class="info-panel tab-panel__model-info">
+                      <div class="info-panel__text"><strong class="info-panel__product-type">Профиль</strong>
+                        <h4 class="info-panel__title">Evolution</h4>
+                        <p class="info-panel__promo-text">Мощность и энергоэффективность</p>
+                      </div>
+                      <div class="info-panel__properties">
+                        <div class="progress-bar"><span class="progress-bar__title">Тепло</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-1" data-line="85%"></div>
+                          </div>
+                        </div>
+                        <div class="progress-bar"><span class="progress-bar__title">Тишина</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-2" data-line="95%"></div>
+                          </div>
+                        </div>
+                        <div class="progress-bar"><span class="progress-bar__title">Безопасность</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-3" data-line="95%"></div>
+                          </div>
                         </div>
                       </div>
-                      <div class="progress-bar"><span class="progress-bar__title">Тишина</span>
-                        <div class="progress-bar__line">
-                          <div class="progress-bar__line-inner progress-bar__line-inner-2"></div>
-                        </div>
-                      </div>
-                      <div class="progress-bar"><span class="progress-bar__title">Безопасность</span>
-                        <div class="progress-bar__line">
-                          <div class="progress-bar__line-inner progress-bar__line-inner-3"></div>
-                        </div>
-                      </div>
+                      <div class="price info-panel__price"><span class="price__first"><sup>от</sup><span>7600</span></span><span class="price__last">р/м<sup>2</sup></span></div><a class="link-btn info-panel__btn" href="javascript:void(0)">Приобрести</a>
                     </div>
-                    <div class="price info-panel__price"><span class="price__first"><sup>от</sup>5600</span><span class="price__last">р/м<sup>2</sup></span></div><a class="link-btn info-panel__btn" href="javascript:void(0)">Приобрести</a>
+                  </div>
+                  <div class="tab-panel__right-block-item">
+                    <div class="tab-panel__model-img">
+                      <picture>
+                        <source media="(max-width:767px)" data-srcset="./img/models/model-img-mob.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" data-src="./img/models/model-img.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="Proline"/>
+                      </picture>
+                    </div>
+                    <div class="info-panel tab-panel__model-info">
+                      <div class="info-panel__text"><strong class="info-panel__product-type">Профиль</strong>
+                        <h4 class="info-panel__title">Proline</h4>
+                        <p class="info-panel__promo-text">Мощность и энергоэффективность</p>
+                      </div>
+                      <div class="info-panel__properties">
+                        <div class="progress-bar"><span class="progress-bar__title">Тепло</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-1" data-line="90%"></div>
+                          </div>
+                        </div>
+                        <div class="progress-bar"><span class="progress-bar__title">Тишина</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-2" data-line="80%"></div>
+                          </div>
+                        </div>
+                        <div class="progress-bar"><span class="progress-bar__title">Безопасность</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-3" data-line="80%"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="price info-panel__price"><span class="price__first"><sup>от</sup><span>4600</span></span><span class="price__last">р/м<sup>2</sup></span></div><a class="link-btn info-panel__btn" href="javascript:void(0)">Приобрести</a>
+                    </div>
+                  </div>
+                  <div class="tab-panel__right-block-item">
+                    <div class="tab-panel__model-img">
+                      <picture>
+                        <source media="(max-width:767px)" data-srcset="./img/models/model-img-mob.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" data-src="./img/models/model-img.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="Vekaslide"/>
+                      </picture>
+                    </div>
+                    <div class="info-panel tab-panel__model-info">
+                      <div class="info-panel__text"><strong class="info-panel__product-type">Профиль</strong>
+                        <h4 class="info-panel__title">Vekaslide</h4>
+                        <p class="info-panel__promo-text">Мощность и энергоэффективность</p>
+                      </div>
+                      <div class="info-panel__properties">
+                        <div class="progress-bar"><span class="progress-bar__title">Тепло</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-1" data-line="70%"></div>
+                          </div>
+                        </div>
+                        <div class="progress-bar"><span class="progress-bar__title">Тишина</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-2" data-line="70%"></div>
+                          </div>
+                        </div>
+                        <div class="progress-bar"><span class="progress-bar__title">Безопасность</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-3" data-line="70%"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="price info-panel__price"><span class="price__first"><sup>от</sup><span>5000</span></span><span class="price__last">р/м<sup>2</sup></span></div><a class="link-btn info-panel__btn" href="javascript:void(0)">Приобрести</a>
+                    </div>
+                  </div>
+                  <div class="tab-panel__right-block-item">
+                    <div class="tab-panel__model-img">
+                      <picture>
+                        <source media="(max-width:767px)" data-srcset="./img/models/model-img-mob.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" data-src="./img/models/model-img.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="WHS60"/>
+                      </picture>
+                    </div>
+                    <div class="info-panel tab-panel__model-info">
+                      <div class="info-panel__text"><strong class="info-panel__product-type">Профиль</strong>
+                        <h4 class="info-panel__title">WHS60</h4>
+                        <p class="info-panel__promo-text">Мощность и энергоэффективность</p>
+                      </div>
+                      <div class="info-panel__properties">
+                        <div class="progress-bar"><span class="progress-bar__title">Тепло</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-1" data-line="75%"></div>
+                          </div>
+                        </div>
+                        <div class="progress-bar"><span class="progress-bar__title">Тишина</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-2" data-line="75%"></div>
+                          </div>
+                        </div>
+                        <div class="progress-bar"><span class="progress-bar__title">Безопасность</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-3" data-line="95%"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="price info-panel__price"><span class="price__first"><sup>от</sup><span>7000</span></span><span class="price__last">р/м<sup>2</sup></span></div><a class="link-btn info-panel__btn" href="javascript:void(0)">Приобрести</a>
+                    </div>
+                  </div>
+                  <div class="tab-panel__right-block-item">
+                    <div class="tab-panel__model-img">
+                      <picture>
+                        <source media="(max-width:767px)" data-srcset="./img/models/model-img-mob.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" data-src="./img/models/model-img.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="WHS72"/>
+                      </picture>
+                    </div>
+                    <div class="info-panel tab-panel__model-info">
+                      <div class="info-panel__text"><strong class="info-panel__product-type">Профиль</strong>
+                        <h4 class="info-panel__title">WHS72</h4>
+                        <p class="info-panel__promo-text">Мощность и энергоэффективность</p>
+                      </div>
+                      <div class="info-panel__properties">
+                        <div class="progress-bar"><span class="progress-bar__title">Тепло</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-1" data-line="95%"></div>
+                          </div>
+                        </div>
+                        <div class="progress-bar"><span class="progress-bar__title">Тишина</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-2" data-line="85%"></div>
+                          </div>
+                        </div>
+                        <div class="progress-bar"><span class="progress-bar__title">Безопасность</span>
+                          <div class="progress-bar__line">
+                            <div class="progress-bar__line-inner progress-bar__line-inner-3" data-line="75%"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="price info-panel__price"><span class="price__first"><sup>от</sup><span>3600</span></span><span class="price__last">р/м<sup>2</sup></span></div><a class="link-btn info-panel__btn" href="javascript:void(0)">Приобрести</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -227,7 +388,7 @@
                 <div class="premium__item-img">
                   <div class="premium__img-container">
                     <picture>
-                      <source media="(max-width:600px)" data-srcset="./img/premium/photo1-mob.jpg"/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/premium/photo1.jpg" alt="Artline"/>
+                      <source media="(max-width:600px)" data-srcset="./img/premium/photo1-mob.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/premium/photo1.jpg" alt="Artline"/>
                     </picture>
                   </div>
                 </div>
@@ -237,7 +398,7 @@
                 <div class="premium__item-img">
                   <div class="premium__img-container">
                     <picture>
-                      <source media="(max-width:600px)" data-srcset="./img/premium/photo2-mob.jpg"/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/premium/photo2.jpg" alt="Artline"/>
+                      <source media="(max-width:600px)" data-srcset="./img/premium/photo2-mob.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/premium/photo2.jpg" alt="Artline"/>
                     </picture>
                   </div>
                 </div>
@@ -247,7 +408,7 @@
                 <div class="premium__item-img premium__item-img-reverse">
                   <div class="premium__img-container premium__img-container--reverse">
                     <picture>
-                      <source media="(max-width:600px)" data-srcset="./img/premium/photo3-mob.jpg"/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/premium/photo3.jpg" alt="Artline"/>
+                      <source media="(max-width:600px)" data-srcset="./img/premium/photo3-mob.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/premium/photo3.jpg" alt="Artline"/>
                     </picture>
                   </div>
                 </div>
@@ -257,7 +418,7 @@
                 <div class="premium__item-img premium__item-img-reverse">
                   <div class="premium__img-container premium__img-container--reverse">
                     <picture>
-                      <source media="(max-width:600px)" data-srcset="./img/premium/photo4-mob.jpg"/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/premium/photo4.jpg" alt="Artline"/>
+                      <source media="(max-width:600px)" data-srcset="./img/premium/photo4-mob.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/premium/photo4.jpg" alt="Artline"/>
                     </picture>
                   </div>
                 </div>
@@ -276,29 +437,29 @@
               <div class="instal__content">
                 <div class="instal__content-col">
                   <div class="instal__item">
-                    <div class="instal__item-icon"><img class="lazyload" data-src="./img/montage/level-icon.png" alt="icon"/></div>
+                    <div class="instal__item-icon"><img class="lazyload" data-src="./img/montage/level-icon.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="icon"/></div>
                     <h4 class="instal__item-title">Собственые<span>монтажные бригады</span></h4>
                     <p class="instal__item-discr">В нашем штате 50 стобственных монтажных бригад</p>
                   </div>
                   <div class="instal__item">
-                    <div class="instal__item-icon"><img class="lazyload" data-src="./img/montage/level-icon.png" alt="icon"/></div>
+                    <div class="instal__item-icon"><img class="lazyload" data-src="./img/montage/level-icon.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="icon"/></div>
                     <h4 class="instal__item-title">Стаж специалистов<span>более 10 лет</span></h4>
                     <p class="instal__item-discr">Каждый монтажник установил более 1700 окон и регулярно проходит курсы повышения квалификации</p>
                   </div>
                 </div>
                 <div class="instal__content-img">
                   <picture>
-                    <source media="(max-width:600px)" data-srcset="./img/montage/pic.png"/><img class="lazyload" src="./img/montage/510-565.gif" data-src="./img/montage/pic-big.png" alt="pic"/>
+                    <source media="(max-width:600px)" data-srcset="./img/montage/pic.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" src="./img/montage/510-565.gif" data-src="./img/montage/pic-big.png" alt="pic"/>
                   </picture>
                 </div>
                 <div class="instal__content-col instal__content-right-col">
                   <div class="instal__item">
-                    <div class="instal__item-icon"><img class="lazyload" data-src="./img/montage/level-icon.png" alt="icon"/></div>
+                    <div class="instal__item-icon"><img class="lazyload" data-src="./img/montage/level-icon.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="icon"/></div>
                     <h4 class="instal__item-title">Сертифицированный<span>монтаж</span></h4>
                     <p class="instal__item-discr">Потверждаем экспертизу в учебно-производственном центре “Межрегиональный институт окна”</p>
                   </div>
                   <div class="instal__item">
-                    <div class="instal__item-icon"><img class="lazyload" data-src="./img/montage/level-icon.png" alt="icon"/></div>
+                    <div class="instal__item-icon"><img class="lazyload" data-src="./img/montage/level-icon.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="icon"/></div>
                     <h4 class="instal__item-title">Вызов инженера по замеру<span>бесплатно</span></h4>
                     <p class="instal__item-discr">Потверждаем экспертизу в учебно-производственном центре “Межрегиональный институт окна”</p>
                   </div>
@@ -334,12 +495,12 @@
               <div class="constructor__center-block">
                 <div class="constructor__window-handle">
                   <picture class="constructor__window-handle-img">
-                    <source media="(max-width:900px)" data-srcset="./img/lamination/handle-white-mob.png"/><img class="lazyload" data-src="./img/lamination/handle-white.png" alt="next"/>
+                    <source media="(max-width:900px)" data-srcset="./img/lamination/handle-white-mob.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" data-src="./img/lamination/handle-white.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="Белая"/>
                   </picture>
                 </div>
                 <div class="constructor__window-laminate">
                   <picture>
-                    <source media="(max-width:900px)" data-srcset="./img/lamination/laminat-1-mob.png"/><img class="lazyload" data-src="./img/lamination/laminat-1.png" alt="laminat-1"/>
+                    <source media="(max-width:900px)" data-srcset="./img/lamination/laminat-1-mob.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" data-src="./img/lamination/laminat-1.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="laminat-1"/>
                   </picture>
                 </div>
               </div>
@@ -366,7 +527,7 @@
         <template id="lamination-template">
           <li class="laminat-slider__item"><span class="laminat-slider__title laminat-slider__title-left"></span><span class="laminat-slider__img laminat-slider__img-left"></span></li>
           <picture>
-            <source media="(max-width:900px)" srcset="./img/lamination/handle-white-mob.png"/><img src="./img/lamination/handle-white.png" alt="next"/>
+            <source media="(max-width:900px)" data-srcset="./img/lamination/handle-white-mob.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="/><img class="lazyload" data-src="./img/lamination/handle-white.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="Белая"/>
           </picture>
           <li class="laminat-slider__item-right"><span class="laminat-slider__title laminat-slider__title--right"></span><span class="laminat-slider__img laminat-slider__img--right"></span></li>
         </template>
@@ -483,20 +644,20 @@
                       <div class="calc__img">
                         <div class="window">
                           <div class="window__top-section">
-                            <div id="fr_div_1" style="display: none;padding:0; margin:0; height:71px; cursor:pointer;"><img src="./img/calc/fram_1.jpg" id="f1" onClick="smena_img(4,4)" alt="Глухая фрамуга"/></div>
-                            <div id="fr_div_2" style="display: none;padding:0; margin:0; height:71px; cursor:pointer;"><img src="./img/calc/fram_2.jpg" id="f2" onClick="smena_img(5,5)" alt="Глухая фрамуга"/></div>
-                            <div id="fr_div_3" style="display: none;font-size:0;"><img src="./img/calc/fram_3.jpg" id="f3" style="width:100%" onClick="smena_img(6,6)" alt="Глухая фрамуга"/></div>
+                            <div id="fr_div_1" style="display: none;padding:0; margin:0; height:71px; cursor:pointer;"><img class="lazyload" data-src="./img/calc/fram_1.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" id="f1" onClick="smena_img(4,4)" alt="Глухая фрамуга"/></div>
+                            <div id="fr_div_2" style="display: none;padding:0; margin:0; height:71px; cursor:pointer;"><img class="lazyload" data-src="./img/calc/fram_2.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" id="f2" onClick="smena_img(5,5)" alt="Глухая фрамуга"/></div>
+                            <div id="fr_div_3" style="display: none;font-size:0;"><img class="lazyload" data-src="./img/calc/fram_3.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" id="f3" style="width:100%" onClick="smena_img(6,6)" alt="Глухая фрамуга"/></div>
                           </div>
                           <div class="window__bot-section">
                             <div class="window-section-col" id="win_col1">
-                              <div id="win_div_1" style="display: block;"><img class="img-responsive" src="./img/calc/stv_gl.jpg" id="w1" data-a="0" data-b="0" alt="Пластиковое окно"/></div>
-                              <div id="dr_div_1" style="display: none; cursor:pointer;"><img class="img-responsive" src="./img/calc/dr_po.jpg" id="dr" onClick="smena_img(3,3)" alt="Пластиковая балконная дверь"/></div>
+                              <div id="win_div_1" style="display: block;"><img class="img-responsive lazyload" data-src="./img/calc/stv_gl.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" id="w1" data-a="0" data-b="0" alt="Пластиковое окно"/></div>
+                              <div id="dr_div_1" style="display: none; cursor:pointer;"><img class="img-responsive lazyload" data-src="./img/calc/dr_po.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" id="dr" onClick="smena_img(3,3)" alt="Пластиковая балконная дверь"/></div>
                             </div>
                             <div class="window-section-col" id="win_col2">
-                              <div id="win_div_2" style="display: block;padding:0; margin:0;"><img class="img-responsive" src="./img/calc/stv_gl.jpg" id="w2" onclick="console.log(smena_img(1,1));" alt="Пластиковое окно"/></div>
+                              <div id="win_div_2" style="display: block;padding:0; margin:0;"><img class="img-responsive lazyload" data-src="./img/calc/stv_gl.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" id="w2" onclick="console.log(smena_img(1,1));" alt="Пластиковое окно"/></div>
                             </div>
                             <div class="window-section-col" id="win_col3">
-                              <div id="win_div_3" style="display: block;padding:0; margin:0;"><img class="img-responsive" src="./img/calc/stv_gl.jpg" id="w3" onClick="smena_img(2,2);" alt="Пластиковое окно"/></div>
+                              <div id="win_div_3" style="display: block;padding:0; margin:0;"><img class="img-responsive lazyload" data-src="./img/calc/stv_gl.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" id="w3" onClick="smena_img(2,2);" alt="Пластиковое окно"/></div>
                             </div>
                           </div>
                           <div class="ruler ruler__width"> <span class="ruler__width-value">2100 мм</span></div>
@@ -542,13 +703,13 @@
                       <div class="calc__window-type window-type">
                         <div class="calc__title">Тип окна</div>
                         <ul class="window-type__list">
-                          <li class="window-type__list-item"><img src="./img/calc/w-icon1.png" data-type="1" data-name="Одностворчатое окно" title="Расчет одностворчатого окна" alt="Расчет одностворчатого окна"/></li>
-                          <li class="window-type__list-item"><img src="./img/calc/w-icon2.png" data-type="2" data-name="Двухстворчатое окно" title="Расчет двухстворчатого окна" alt="Расчет двухстворчатого окна"/></li>
-                          <li class="window-type__list-item window-type__list-item-active"><img src="./img/calc/w-icon3.png" data-type="3" data-name="Трехстворчатое окно" title="Расчет трехстворчатого окна" alt="Расчет трехстворчатого окна"/></li>
-                          <li class="window-type__list-item"><img src="./img/calc/w-icon4.png" data-type="8" data-name="Трехстворчатое окно с фрамугой" title="Расчет трехстворчатого окна с фрамугой" alt="Расчет трехстворчатого окна с фрамугой"/></li>
-                          <li class="window-type__list-item"><img src="./img/calc/w-icon5.png" data-type="5" data-name="Трёхстворчатый балконный блок" title="Расчет двухстворчатого балконного блока" alt="Расчет двухстворчатого балконного блока"/></li>
-                          <li class="window-type__list-item"><img src="./img/calc/w-icon6.png" data-type="4" data-name="Двухстворчатый балконный блок" title="Расчет балконного блока" alt="Расчет балконного блока"/></li>
-                          <li class="window-type__list-item"><img src="./img/calc/w-icon7.png" data-type="8" data-name="Трехстворчатое окно с фрамугой" title="Расчет трехстворчатого окна с фрамугой" alt="Расчет трехстворчатого окна с фрамугой"/></li>
+                          <li class="window-type__list-item"><img class="lazyload" data-src="./img/calc/w-icon1.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-type="1" data-name="Одностворчатое окно" title="Расчет одностворчатого окна" alt="Расчет одностворчатого окна"/></li>
+                          <li class="window-type__list-item"><img class="lazyload" data-src="./img/calc/w-icon2.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-type="2" data-name="Двухстворчатое окно" title="Расчет двухстворчатого окна" alt="Расчет двухстворчатого окна"/></li>
+                          <li class="window-type__list-item window-type__list-item-active"><img class="lazyload" data-src="./img/calc/w-icon3.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-type="3" data-name="Трехстворчатое окно" title="Расчет трехстворчатого окна" alt="Расчет трехстворчатого окна"/></li>
+                          <li class="window-type__list-item"><img class="lazyload" data-src="./img/calc/w-icon4.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-type="8" data-name="Трехстворчатое окно с фрамугой" title="Расчет трехстворчатого окна с фрамугой" alt="Расчет трехстворчатого окна с фрамугой"/></li>
+                          <li class="window-type__list-item"><img class="lazyload" data-src="./img/calc/w-icon5.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-type="5" data-name="Трёхстворчатый балконный блок" title="Расчет двухстворчатого балконного блока" alt="Расчет двухстворчатого балконного блока"/></li>
+                          <li class="window-type__list-item"><img class="lazyload" data-src="./img/calc/w-icon6.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-type="4" data-name="Двухстворчатый балконный блок" title="Расчет балконного блока" alt="Расчет балконного блока"/></li>
+                          <li class="window-type__list-item"><img class="lazyload" data-src="./img/calc/w-icon7.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-type="8" data-name="Трехстворчатое окно с фрамугой" title="Расчет трехстворчатого окна с фрамугой" alt="Расчет трехстворчатого окна с фрамугой"/></li>
                         </ul>
                       </div>
                       <div class="calc__window-sizes">
@@ -609,7 +770,7 @@
                         <div class="calc-form-modal__content-left-col">
                           <h4 class="calc-form-modal__title">Личные данные</h4>
                           <input class="calc-form-modal__user-name" name="user-name" type="text" placeholder="Ваше имя" required="required"/>
-                          <input class="calc-form-modal__phone" name="user-phone" type="numbet" placeholder="Телефон" required="required"/>
+                          <input class="calc-form-modal__phone" name="user-phone" type="number" placeholder="Телефон" required="required"/>
                           <input class="calc-form-modal__email" name="user-email" type="email" placeholder="E-mail" required="required"/>
                           <textarea class="calc-form-modal__send" cols="10" rows="7" name="user-send" placeholder="Комментарий"></textarea>
                         </div>
@@ -688,7 +849,7 @@
                   <div class="instalment__form-inner">
                     <p class="form__title">Оставьте заявку прямо сейчас и получите<span class="form__title--sale">скидку </span><span class="form__title--perc">45%</span></p>
                     <label class="label label__user">
-                      <input class="input" type="name" name="user-name" placeholder="Ваше имя"/>
+                      <input class="input" type="text" name="user-name" placeholder="Ваше имя"/>
                     </label>
                     <label class="label label__phone">
                       <input class="input" type="tel" name="phone" placeholder="Номер телефона"/>
@@ -867,7 +1028,7 @@
                 <div class="slide-wrap">
                   <div class="response responses-slider__item">
                     <div class="response__avatar">
-                      <div class="response__avatar-img"><img class="lazyload" src="./img/responses/123-123.gif" data-src="./img/responses/photo1.jpg" alt="photo"/></div>
+                      <div class="response__avatar-img"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/responses/photo1.jpg" alt="photo"/></div>
                     </div>
                     <p class="response__text">Благодарность команде монтажников<span class="response__author">- Сергей, 22 года</span></p>
                     <div class="response__player player-panel">
@@ -888,7 +1049,7 @@
                 <div class="slide-wrap">
                   <div class="response responses-slider__item">
                     <div class="response__avatar">
-                      <div class="response__avatar-img"><img class="lazyload" src="./img/responses/123-123.gif" data-src="./img/responses/photo2.jpg" alt="photo"/></div>
+                      <div class="response__avatar-img"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/responses/photo2.jpg" alt="photo"/></div>
                     </div>
                     <p class="response__text">Благодарность за быструю работу<span class="response__author">- Борис, 34 года</span></p>
                     <div class="response__player player-panel">
@@ -909,7 +1070,7 @@
                 <div class="slide-wrap">
                   <div class="response responses-slider__item">
                     <div class="response__avatar">
-                      <div class="response__avatar-img"><img class="lazyload" src="./img/responses/123-123.gif" data-src="./img/responses/photo3.jpg" alt="photo"/></div>
+                      <div class="response__avatar-img"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/responses/photo3.jpg" alt="photo"/></div>
                     </div>
                     <p class="response__text">Спасибо, что своевременно устранили поломку<span class="response__author">- Ирина, 69 лет</span></p>
                     <div class="response__player player-panel">
@@ -930,7 +1091,7 @@
                 <div class="slide-wrap">
                   <div class="response responses-slider__item">
                     <div class="response__avatar">
-                      <div class="response__avatar-img"><img class="lazyload" src="./img/responses/123-123.gif" data-src="./img/responses/photo2.jpg" alt="photo"/></div>
+                      <div class="response__avatar-img"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="./img/responses/photo2.jpg" alt="photo"/></div>
                     </div>
                     <p class="response__text">Благодарность за быструю работу<span class="response__author">- Борис, 34 года</span></p>
                     <div class="response__player player-panel">
@@ -941,9 +1102,7 @@
                       <div class="player-panel__progress-bar">
                         <div class="player-panel__progress-bar-line"></div>
                       </div>
-                      <div class="player-panel__volume">
-                        <button class="player-panel__play-volume" type="button"></button>
-                      </div>
+                      <div class="player-panel__volume"></div>
                       <div class="player-panel__volume-panel">
                         <div class="player-panel__volume-line"></div>
                       </div>
@@ -951,8 +1110,8 @@
                   </div>
                 </div>
               </div>
-              <button class="responses-arrow responses-arrow__right" type="button"><img class="lazyload" data-src="./img/responses/nav-right.png" alt="next"/></button>
-              <button class="responses-arrow responses-arrow__left" type="button"><img class="lazyload" data-src="./img/responses/nav-left.png" alt="prew"/></button>
+              <button class="responses-arrow responses-arrow__right" type="button"><img class="lazyload" data-src="./img/responses/nav-right.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="next"/></button>
+              <button class="responses-arrow responses-arrow__left" type="button"><img class="lazyload" data-src="./img/responses/nav-left.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="prew"/></button>
             </div>
           </div>
         </div>
@@ -987,7 +1146,7 @@
             </ul>
             <form class="footer__form form" action="#" method="post" name="contacts-form">
               <label class="label label__user">
-                <input class="input footer__input" type="name" name="user-name" placeholder="Ваше имя">
+                <input class="input footer__input" type="text" name="user-name" placeholder="Ваше имя">
               </label>
               <label class="label label__phone">
                 <input class="input footer__input" type="tel" name="phone" placeholder="Номер телефона">
@@ -1001,6 +1160,6 @@
     <div class="overlay hidden"></div>
     <script src="https://api-maps.yandex.ru/2.1/?apikey=f249d6ae-df04-48ac-879f-30cbdbc1c069&amp;lang=ru_RU" type="text/javascript"></script>
     <script src="./js/main.min.js"></script>
-    <script src="./js/vendor.min.js"></script>
+    <script src="./js/vendor.js"></script>
   </body>
 </html>
