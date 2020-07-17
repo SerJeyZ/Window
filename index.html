@@ -50,7 +50,7 @@
             </div>
             <div class="header__phone">701-00-18</div>
           </div>
-          <div class="burger"><img class="lazyload" data-src="./img/header/burger.svg" src="data:image/gif;base64,R0lGODlhNAATAIAAAP///wAAACH5BAEAAAEALAAAAAA0ABMAAAIdjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbu6xYAOw==" alt="Открыть меню"></div>
+          <div class="burger"><img src="./img/header/burger.svg" alt="Открыть меню"></div>
         </div>
         <div class="header__content">
           <div class="hero">
@@ -86,7 +86,7 @@
                   <div class="action__block-btn"><a class="link-btn action__btn link-btn--bg-white" href="#actions">Все акции</a></div>
                 </div>
               </div>
-              <div class="hero__right-block"><img class="img-responsive lazyload" data-src="./img/hero/hero-window.png" src="data:image/gif;base64,R0lGODlhCwAKAIAAAP///wAAACH5BAEAAAEALAAAAAALAAoAAAIJjI+py+0Po0wFADs=" alt="window"/></div>
+              <div class="hero__right-block"><img class="img-responsive lazyload" data-src="./img/hero/hero-window.png" src="./img/hero/300x300.gif" alt="window"/></div>
             </div>
           </div>
         </div>
@@ -700,7 +700,7 @@
                       <button class="btn calc__btn calc__btn-setting btn-block__item--grey" id="win-setting" type="button">Настроить</button>
                     </div>
                     <div class="calc__right-block">
-                      <div class="calc__right-modal">
+                      <div class="calc__right-modal hidden-mob">
                         <div class="close calc__right-block-close">close</div>
                         <div class="calc__window-type window-type">
                           <div class="calc__title">Тип окна</div>
@@ -722,15 +722,13 @@
                           </div>
                         </div>
                         <div class="select select--big calc__window-glass"><strong class="select__title">Стеклопакет</strong>
-                          <div class="select__input" id="glass" data-select="Двухкамерный стеклопакет" data-value="0.212"><span>Двухкамерный стеклопакет</span>
+                          <div class="select__input" id="glass" data-select="Однокамерный стеклопакет" data-value="0.0225"><span>Однокамерный стеклопакет</span>
                             <div class="arrow-btn"></div>
                             <ul class="select-list calc__window-glass-select">
+                              <li class="select-list__item calc__glass-list-item select-list__item-active" data-select="Однокамерный стеклопакет" data-value="0.0225">Однокамерный<br/>стеклопакет</li>
+                              <li class="select-list__item calc__glass-list-item" data-select="Однокамерный энерго-сберегающий стеклопакет" data-value="0.070">Однокамерный энерго-сберегающий стеклопакет</li>
                               <li class="select-list__item calc__glass-list-item select-list__item-active" data-select="Двухкамерный стеклопакет" data-value="0.212">Двухкамерный<br/>стеклопакет</li>
-                              <li class="select-list__item calc__glass-list-item" data-select="Однокамерны стеклопакет с использованием триплекса" data-value="0.070">Однокамерны стеклопакет с использованием триплекса</li>
                               <li class="select-list__item calc__glass-list-item" data-select="Двухкамерный энерго-сберегающий стеклопакет" data-value="0.252">Двухкамерный энерго-сберегающий стеклопакет</li>
-                              <li class="select-list__item calc__glass-list-item calc__glass-list-item--margin" data-select="Однокамерный энерго-сберегающий стеклопакет" data-value="0.070">Однокамерный энерго-сберегающий стеклопакет</li>
-                              <li class="select-list__item calc__glass-list-item calc__glass-list-item--margin" data-select="Антирезонансный шумо-защитный стеклопакет" data-value="0.252">Антирезонансный шумо-защитный стеклопакет</li>
-                              <li class="select-list__item calc__glass-list-item calc__glass-list-item--margin" data-select="Мультифункциональный солнцезащитный стеклопакет" data-value="0.252">Мультифункциональный солнцезащитный стеклопакет</li>
                             </ul>
                           </div>
                         </div>
@@ -1166,9 +1164,11 @@
         <div class="contacts">
           <div class="contacts__inner">
             <div class="contact contacts__item">
-              <div class="contact__type">Адрес</div>
+              <div class="contact__type">Адреса</div>
               <div class="contact__text">
-                <div class="contact__text-item">просп. Просвещения, 53 корп. 1</div>
+                <div class="contact__text-item"><span>1.</span> <span>бульвар Новаторов, д.108 (вход со двора)</span></div>
+                <div class="contact__text-item"><span>2.</span> <span>улица Есенина д.32</span> </div>
+                <div class="contact__text-item"><span>3.</span> <span>проспект Дальневосточный 14 ТЦ "Мебельвуд"</span>  </div>
               </div>
             </div>
             <div class="contact contacts__item">
@@ -1203,7 +1203,7 @@
     </footer>
     <div class="overlay hidden"></div>
     <script src="https://api-maps.yandex.ru/2.1/?apikey=f249d6ae-df04-48ac-879f-30cbdbc1c069&amp;lang=ru_RU" type="text/javascript"></script>
-    <script src="./js/vendor.min.js"></script>
+    <script src="./js/vendor.js"></script>
     <script async src="./js/main.min.js"></script>
   </body>
 </html>
